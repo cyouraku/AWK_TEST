@@ -17,7 +17,7 @@ while [ $int -gt 0 ]
 #echo $int
 do
   cat ${DATA_SOURCE} >> ${DATA_LOAD}
-  echo $int
+  #echo $int
   let int-=1
 done
 
